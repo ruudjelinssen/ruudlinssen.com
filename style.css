@@ -47,13 +47,22 @@ small {
 }
 
 .interest-icon-section {
-
+    margin-bottom: 30px;
 }
 
 .interest-icon-section>h3 {
     color: rgb(147, 161, 161);
     font-size: 0.9em;
     text-align: center;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 600px) {
+    
+    .interest-icon-section>h3 {
+        display: none;
+    }
+
 }
 
 .interest-icons-wrapper {
@@ -70,12 +79,6 @@ small {
     width: 120px;
     text-align: center;
     font-size: 2em;
-}
-
-@media only screen and (max-width: 600px) {
-.interest-icon>i {
-    font-size: 1em;
-}
 }
 
 .interest-icon>small {
