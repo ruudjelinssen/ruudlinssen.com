@@ -40,6 +40,51 @@ small {
     color: rgb(181, 137, 0);
 }
 
+.interest-icon-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+}
+
+.interest-icon-section {
+
+}
+
+.interest-icon-section>h3 {
+    color: rgb(147, 161, 161);
+    font-size: 0.9em;
+    text-align: center;
+}
+
+.interest-icons-wrapper {
+    display: flex;
+}
+
+.interest-icon {
+    flex-grow: 1;
+}
+
+.interest-icon>i {
+    color: rgb(147, 161, 161);
+    display: block;
+    width: 120px;
+    text-align: center;
+    font-size: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+.interest-icon>i {
+    font-size: 1em;
+}
+}
+
+.interest-icon>small {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+}
+
 ul li {
   list-style: none; 
   margin: 0;
@@ -58,7 +103,6 @@ ul li::before {
     margin-left: -25px;
 
 }
-
 
 .subtext {
     padding: 0;
