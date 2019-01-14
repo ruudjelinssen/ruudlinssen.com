@@ -1,0 +1,93 @@
+body {
+    background-color: rgb(7, 54, 66);
+    color: rgb(238, 232, 213);
+    font-family: "Inconsolata", monospace;
+    line-height: 1.8em;	
+    font-size: 1.2em;
+}
+
+pre {
+    line-height: 1em;
+    font-size: 1em;
+}
+
+code {
+    padding: 20px !important;
+}
+
+.container {
+    max-width: 950px;
+    margin: 60px auto;
+    padding: 0 15px;
+}
+
+.breadcrumbs {
+    background-color: rgb(0, 43, 54);
+    padding: 8px;
+    font-size: 0.9em;
+    line-height: 0.9em;
+}
+
+a {
+    color: rgb(181, 137, 0);
+}
+
+small {
+    color: rgb(147, 161, 161);
+}
+
+.yellow {
+    color: rgb(181, 137, 0);
+}
+
+ul li {
+  list-style: none; 
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+  margin: 0 0 10px 0;
+}
+
+ul li::before {
+    color: rgb(220, 50, 47);  
+    content: "●"; 
+
+    font-weight: bold;
+    display: inline-block;
+    width: 25px;
+    margin-left: -25px;
+
+}
+
+
+.subtext {
+    padding: 0;
+    margin: 0;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.hljs-ln td.hljs-ln-numbers {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    text-align: center;
+    color: #586e75;
+    #border-right: 1px solid #586e75;
+    vertical-align: top;
+    padding-right: 5px;
+}
+
+.hljs-ln td.hljs-ln-code {
+    padding-left: 10px;
+}
